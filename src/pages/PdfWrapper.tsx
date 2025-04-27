@@ -19,7 +19,7 @@ function PdfWrapper({ pdfUrl }: { pdfUrl: string }) {
                 activeReference={activeReference}
             />
 
-            <div className="overflow-x-scroll h-screen p-[10px] grow">
+            <div className="overflow-x-scroll h-screen p-[10px] grow gap-3 flex flex-col">
                 {pdf && Array.from(new Array(pdf.numPages), (_, idx) => (
                     <div
                         key={`page_${idx + 1}`}

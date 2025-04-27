@@ -31,7 +31,7 @@ const PdfViewer = (
     }, [pdf, pageNumber]);
 
     return (
-        <div className={`relative w-fit`}>
+        <div className="relative w-fit shadow">
             <canvas ref={canvasRef} className="mx-auto my-0" />
 
             {/* overlay highlights */}
