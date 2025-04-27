@@ -1,7 +1,8 @@
 # Getting Started with Explore PDFs
 
-This project use [pdfjs-dist](https://mozilla.github.io/pdf.js/api/) library display and explore PDFs files.
-For styling I used [tailwindcss v3](https://v3.tailwindcss.com/docs/installation) library.
+This project use [pdfjs-dist](https://mozilla.github.io/pdf.js/api/) library display and explore PDFs files.\
+For styling I used [tailwindcss v3](https://v3.tailwindcss.com/docs/installation) library.\
+You can check a live version of the app here: [https://octa-explorepdfs.netlify.app/](https://octa-explorepdfs.netlify.app/)
 
 ## Available Scripts
 
